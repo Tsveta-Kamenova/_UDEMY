@@ -19,7 +19,8 @@ class overload:
         print(a)
 
     def fun(self, a, b=None):
-        print(a,b)
+        print(a, b)
+
 
 obj=overload()
 obj.fun(89)
