@@ -7,4 +7,5 @@ class MyClass:
 
 
 obj = MyClass()
-obj.fun()
+#obj.fun()
+print(obj._MyClass__var)
